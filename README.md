@@ -1,7 +1,8 @@
-# MuteInput
-Mute microphone input per application
+# Muteput
+Mute input or output per application with pulseaudio
 
 ###Usage
-*python3 MuteInput.py [application]*
+*python3 muteput.py (in|out) [application]*
 
-*example: python3 MuteInput.py firefox*
+*example1: python3 muteput.py in firefox* **Mutes microphone for firefox**
+*example2: python3 muteput.py out discord* **Mutes discord**
